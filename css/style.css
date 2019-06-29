@@ -1247,3 +1247,9 @@ img.about-photo{
 .input-group .form-control:last-child{
 background-color:#2f333e!important;
 }
+.portfolio-section:hover {
+
+	transform: scale(1.1);
+	transition: all 1s;
+	opacity: 1;
+   }
