@@ -5,7 +5,7 @@ body {
 }
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
-#map-canvas { height: 100% }
+
 p {
     font-family: "Roboto Slab", serif;
 	line-height: 1.5;
@@ -119,10 +119,10 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: none;
-    'Titillium Web',"Helvetica Neue", sans-serif;
+    font-family: 'Titillium Web',"Helvetica Neue", sans-serif;
     font-weight: 300;
 	font-size:1.348em;
-	line-heigh:1.249em;
+	line-height:1.249em;
 	margin-top:60px;
 }
 header .intro-text {
@@ -145,6 +145,7 @@ header  .menu-icon i{
 	 margin-top: 30px;
 	 color: #fff;
 	 margin-right: 130px;
+	 font-size: 2.5em;
 }
 header  .menu-icon:hover i {
 	background-color:#fff; 
@@ -384,10 +385,7 @@ section.success {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
-    padding-left: 14px;
-    border-left: 1px solid #eee;
-}
+
 
 .floating-label-form-group-with-value label {
     top: 0;
@@ -830,7 +828,7 @@ border-top: 22px solid #3fbfE1;
 	margin-left:75px;
 }
 .primary_color{
-	color:fff;
+	color:#fff;
 	background-color:#000;
 }
 .list_blog .form-control, .input{
@@ -1252,4 +1250,49 @@ background-color:#2f333e!important;
 	transform: scale(1.1);
 	transition: all 1s;
 	opacity: 1;
+   }
+   @media (max-width:768px){
+
+	.skills h3 {
+		
+		margin-top: 0px;
+	}
+   }
+   @media (max-width:560px){
+
+	.animateleft, .animateright {
+		
+		padding: 10px;
+	}
+   }
+   @media (max-width:750px){
+
+	.portfolio-container {
+		
+		
+		grid-template-columns: 1fr 1fr ;
+		
+	}
+   }
+
+
+   @media (max-width:550px){
+	   .portfolio-container{
+		   display: block;
+	   }
+
+	.portfolio-section {
+		
+		margin:15px 0px;
+	
+		
+		width: 100%;
+		
+	}
+	.portfolio-section:hover {
+
+		transform: none;
+	
+	   }
+	  
    }
