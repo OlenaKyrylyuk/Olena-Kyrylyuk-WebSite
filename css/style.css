@@ -145,6 +145,7 @@ header  .menu-icon i{
 	 margin-top: 30px;
 	 color: #fff;
 	 margin-right: 130px;
+	 font-size: 2.5em;
 }
 header  .menu-icon:hover i {
 	background-color:#fff; 
@@ -1146,7 +1147,7 @@ img.about-photo{
 	margin-top:-30px;
 }
 
-/*Education section CSS*/
+
 .timeline{
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -1247,3 +1248,54 @@ img.about-photo{
 .input-group .form-control:last-child{
 background-color:#2f333e!important;
 }
+.portfolio-section:hover {
+
+	transform: scale(1.1);
+	transition: all 1s;
+	opacity: 1;
+   }
+   @media (max-width:768px){
+
+	.skills h3 {
+		
+		margin-top: 0px;
+	}
+   }
+   @media (max-width:560px){
+
+	.animateleft, .animateright {
+		
+		padding: 10px;
+	}
+   }
+   @media (max-width:750px){
+
+	.portfolio-container {
+		
+		
+		grid-template-columns: 1fr 1fr ;
+		
+	}
+   }
+
+
+   @media (max-width:550px){
+	   .portfolio-container{
+		   display: block;
+	   }
+
+	.portfolio-section {
+		
+		margin:15px 0px;
+	
+		
+		width: 100%;
+		
+	}
+	.portfolio-section:hover {
+
+		transform: none;
+	
+	   }
+	  
+   }
